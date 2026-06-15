@@ -1,49 +1,63 @@
-Hi Team,
+# Caterers Near Me
 
-I have completed the assignment and implemented all the required functionality including:
+## Overview
 
-REST APIs using Node.js and Express
-MongoDB integration
-Get all caterers API
-Get caterer by ID API
-Create caterer API with validation
-Next.js frontend
-Caterer listing page
-Search functionality
-Price filtering
-Responsive UI
+This is a small full stack application built as part of the Caterers Near Me developer evaluation task.
 
-Due to the short timeline provided for the assignment, I used AI assistance for some parts of the frontend UI styling and component design to speed up development. The backend architecture, API implementation, database integration, project structure (Router → Controller → Service → Repository → Model), and application logic were implemented and integrated by me.
+The application allows users to:
 
-Deployment
+* View all caterers
+* Add new caterers
+* Search caterers
+* Filter caterers by pricing
+* View caterers in a responsive card based UI
 
-Frontend (Vercel):
+The backend was developed using Node.js, Express and MongoDB, while the frontend was built using Next.js and TypeScript.
+
+---
+
+## Live Deployment
+
+Frontend:
 
 https://caterers-near-me-frontend.vercel.app
 
-Backend (Vercel):
+Backend:
 
 https://caterers-near-me-server.vercel.app
-Environment Variables
 
-Backend .env
+---
 
-PORT=8000
+ 
 
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/caterers-near-me?retryWrites=true&w=majority
+ 
+---
 
-Frontend .env.local
+## Development Note
 
-NEXT_PUBLIC_API_URL=https://caterers-near-me-server.vercel.app
-Things I would improve with more time
-Better form validation
-Pagination for caterer listing
-Image upload support for caterers
-Authentication & authorization
-Better error handling and logging
-Unit and integration tests
+I wanted to be transparent about one thing.
 
-Thank you for reviewing my submission.
+Due to the limited time available for completing the assignment, I used AI assistance for some parts of the frontend UI design, styling and component polishing. This was mainly done to speed up the visual development process and focus more time on the backend implementation, API integration, database setup, project structure and overall functionality.
+
+The application architecture, API development, MongoDB integration, frontend-backend integration, debugging, deployment and testing were completed and integrated by me.
+
+I felt it was better to mention this openly rather than claim otherwise.
+
+---
+
+## Additional Notes
+
+There are still a few things I would improve if given more time:
+
+* Better filtering options
+* Pagination
+* More detailed caterer profiles
+* Image uploads
+* More comprehensive testing
+* Better loading and error states
+
+Thank you for taking the time to review my submission.
 
 Regards,
+
 Gaurav Patil
